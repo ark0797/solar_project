@@ -60,3 +60,16 @@ def write_space_objects_data_to_file(output_filename, space_objects):
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+>>>>>>> cd803b1524e3e667a94ed4cde8ae8248e43b6cc1
