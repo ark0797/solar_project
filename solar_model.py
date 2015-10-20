@@ -11,8 +11,8 @@ def calculate_force(body, space_objects):
             r = ((body.x - obj.x)**2 + (body.y - obj.y)**2)**0.5
             a=abs(body.y - obj.y)/r
             b=abs(body.x - obj.x)/r
-            body.Fx += G*(body.m)*(obj.m)/(r*b)
-            body.Fy += G*(body.m)*(obj.m)/(r*a)
+            body.Fx += G*(body.m)*(obj.m)/(r*b)**2
+            body.Fy += G*(body.m)*(obj.m)/(r*a)**2
 
 
 def move_space_object(body, dt):
